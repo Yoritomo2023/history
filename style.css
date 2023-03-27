@@ -1,0 +1,136 @@
+/*reset*/
+body,ul,h1,h2,h3,h5,h6,div,a,p,ul{
+    margin: 0px;
+    padding: 0px; 
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        } 
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
+}
+/*共通*/
+html{
+    max-width: 1920px;
+    min-width: 900px;
+}
+body{
+    background-color: #0197a6;
+}
+
+h2{
+    margin-left: 0;
+    font-size: 56px;
+    color: #13131b;
+    letter-spacing: 0.1em; 
+    border-bottom: 4px solid #000; 
+    margin-right: 2%;
+    margin-left: 2%;
+}
+section.wrap{
+  justify-content: center;
+}
+
+/*ヘッダー*/
+header img{
+    width: 15%;
+    margin-left: 30px;
+    min-width: 100px;
+    min-height: 100px;
+}
+header .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul a{
+    margin-top: 0px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+a:last-of-type{
+    margin-right: 10px;
+}
+
+/*ヒーロー*/
+.hero {
+    position: relative;  
+}
+.hero img{
+    width: 100%;
+}
+.hero .catch-copy{
+    position: absolute;
+}
+.hero .catch-copy{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 45px;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+/*イントロダクション*/
+.Introduction{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #eeedeb;
+}
+.Introduction img{
+    width: 40%;
+}
+
+.Introduction .wrap{
+     display: flex;
+     margin-top: 20px;
+     margin-left: 25px;
+}
+.summary{
+    margin-top: 20px;
+    font-size: 24px;
+}
+p{
+    margin-left: 20px;
+}
+/*コンテンツ*/
+.contents{
+    padding-top: 40px;
+}
+.contents a{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 200px;
+    color: aliceblue;  
+    display: block;
+}
+
+.contents .wrap{
+       margin-left: 45px;
+       margin-bottom: 40px;
+}
+.contents img{
+    margin-top: 40px
+}
+
+/*コンタクト*/
+.contact{
+    padding-top: 40px;
+    background-color: #eeedeb;
+}
+.contact h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
